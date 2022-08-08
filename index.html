@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Test Corebiz</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+
+    <header class="headerdesktop">
+        <nav>
+             <div>
+                 <img class="corbizlog" src="Vector.png" alt="logo">
+             </div>
+             <div>
+                 <input class="busqueda" placeholder="¿Que estas buscando?" type="text">
+                 <img class="icon-search" src="search.png" alt="">
+             </div>
+             <div class="div3nav">
+                 <img class="cuentaicon" src="user.png" alt="user">
+                 <p class="cuenta">Mi cuenta</p>
+             </div>
+             <div>
+                 <img class="icon-carrito" src="carro.png" alt="carrito">
+                 <span class="contador">0</span>
+             </div>
+        </nav>
+    </header>
+
+    <header class="headermobile">
+        <nav class="nav-mobile">
+            <div class="primercaja-mobile">
+                <div>
+                    <img class="icono-hamburger" src="icon.png" alt="">
+                </div>
+                <div class="contenido-oculto">
+                    <span class="cerrar">X</span>
+                    <h4>Menú hamburguesa oculto</h4>
+                    <ul>
+                        <li>Categoría 1</li>
+                        <li>Categoría 2</li>
+                        <li>Categoría 3</li>
+                        <li>Categoría 4</li>
+                        <li>Categoría 5</li>
+                        <li>Categoría 6</li>
+                        <li>Categoría 7</li>
+                        <li>Categoría 8</li>
+                        <li>Categoría 9</li>
+                        <li>Categoría 10</li>
+                        <li>Categoría 11</li>
+                        <li>Categoría 12</li>
+                        <li>Categoría 13</li>
+                        <li>Categoría 14</li>
+                        <li>Categoría 15</li>
+                    </ul>
+                </div>
+                <div>
+                    <img class="corbizlog" src="crbz.png" alt="logo">
+                </div>
+                <div>
+                    <img class="icon-carrito" src="carro.png" alt="carrito">
+                    <span class="contador">0</span>
+                </div>
+            </div>
+             <div>
+                <div>
+                    <input class="busqueda" placeholder="¿Que estas buscando?" type="text">
+                    <img class="icon-search" src="search.png" alt="">
+                </div>
+             </div>
+        </nav>
+        </header>
+
+    <section class="banner">
+        <div><img class="banner-home" src="banner-desk.png" alt="Banner Home"></div>
+        <div><img class="banner-home" src="banner-desk.png" alt="Banner Home"></div>
+        <div><img class="banner-home" src="banner-desk.png" alt="Banner Home"></div>
+    </section>
+
+  <div class="mt-4 shadow-lg p-3 mb-5 bg-body rounded">
+    <table class="table table-bordered table-striped">
+      <thead>
+      </thead>
+      <div class="vitrina" id="data">
+      </div>
+    </table>
+  </div>
+
+  <section class="section-form">
+    <h2 class="title-form">Participe de nossas news com promoções e novidades!</h2>
+    <form action="https://corebiz-test.herokuapp.com/api/v1/newsletter" method="POST">
+        <input id="nombre" class="add" type="text" placeholder="Digite seu nome" required>
+        <input id="email" class="add" type="email" placeholder="Digite seu email" required>
+        <input class="enviar" type="submit" value="Eu quero!">
+    </form>
+  </section>
+
+  <footer>
+    <div id="primer-row-footer">
+        <ul>
+            <li id="lista1">Localização</li>
+            <li id="lista2"></li>
+            <li id="listacomun">Avenida Andrômeda, 2000. Bloco 6 e 8</li>
+            <li id="listacomun">Alphavile SP</li>
+            <li id="listacomun">brasil@corebiz.ag</li>
+            <li id="listacomun">+55 11 3090 1039</li>
+        </ul>
+    </div>
+    <div class="boton-footer">
+        <button class="boton1-footer">ENTRE EM CONTATO</button>
+        <button class="boton2-footer">FALE COM O NOSSO CONSULTOR ONLINE</button>
+    </div>
+    <div class="columna3-footer">
+        <div class="clumna3-1">
+            <h3>Created by</h3>
+            <img class="" src="crbz.png" alt="logo">
+        </div>
+        <div class="clumna3-1">
+             <h3>Powered by</h3>
+             <div class="mini-imagenes">
+                 <img class="logo-vtex" src="vtex.png" alt="logo">
+                 <img class="letras-vtex" src="vtex-v.png" alt="logo">
+                 <img class="letras-vtex" src="vtex-t.png" alt="logo">
+                 <img class="letras-vtex" src="vtex-e.png" alt="logo">
+                 <img class="letras-vtex" src="vtex-x.png" alt="logo">
+             </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script>
+      
+    </script>
+    <script src="funciones.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+</body>
+</html>
